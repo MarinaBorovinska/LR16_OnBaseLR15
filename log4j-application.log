@@ -1,0 +1,20 @@
+2017-05-26 11:13:46 INFO  ListenerTest:17 - TEST: subTaskCRUD STARTED
+2017-05-26 11:14:08 INFO  BasePage:22 - OPENING URL: http://soft.it-hillel.com.ua:8080/login.jsp
+2017-05-26 11:14:11 INFO  BasePage:150 - IS ON THE PAGE: http://soft.it-hillel.com.ua:8080/login.jsp
+2017-05-26 11:14:11 INFO  BasePage:58 - WAIT ELEMENT TO BE PRESENT AND SEND KEYS: By.id: login-form-username
+2017-05-26 11:14:12 INFO  BasePage:58 - WAIT ELEMENT TO BE PRESENT AND SEND KEYS: By.id: login-form-password
+2017-05-26 11:14:12 INFO  BasePage:75 - WAIT ELEMENT TO BE PRESENT AND SUBMIT: By.id: login-form-submit
+2017-05-26 11:14:23 INFO  BasePage:150 - IS ON THE PAGE: http://soft.it-hillel.com.ua:8080/secure/Dashboard.jspa
+2017-05-26 11:14:29 INFO  BasePage:22 - WAIT ELEMENT TO BE PRESENT: By.id: stqc_show
+2017-05-26 11:14:29 INFO  BasePage:22 - WAIT ELEMENT TO BE PRESENT: By.id: summary
+2017-05-26 11:14:33 INFO  BasePage:91 - WAIT ELEMENT TO BE PRESENT AND CONTAINS TEXT: By.xpath: //*[contains(text(),'Marina test')]
+2017-05-26 11:14:33 INFO  BasePage:42 - WAIT ELEMENT TO BE PRESENT AND CLICK: By.linkText: Marina test
+2017-05-26 11:14:34 INFO  BasePage:22 - WAIT ELEMENT TO BE PRESENT: By.xpath: //*[contains(@class,'aui-message-success')]
+2017-05-26 11:14:34 INFO  BasePage:42 - WAIT ELEMENT TO BE PRESENT AND CLICK: By.id: opsbar-operations_more
+2017-05-26 11:14:34 INFO  BasePage:42 - WAIT ELEMENT TO BE PRESENT AND CLICK: By.id: delete-issue
+2017-05-26 11:14:34 INFO  BasePage:42 - WAIT ELEMENT TO BE PRESENT AND CLICK: By.id: delete-issue-submit
+2017-05-26 11:14:35 INFO  ListenerTest:40 - TEST: subTaskCRUD PASSED
+2017-05-26 11:14:35 INFO  ListenerTest:17 - TEST: subTaskCommentCRUD STARTED
+2017-05-26 11:14:39 INFO  ListenerTest:40 - TEST: subTaskCommentCRUD PASSED
+2017-05-26 11:14:41 INFO  ListenerTest:65 - Restoring implicit wait to default value
+2017-05-26 11:14:41 INFO  ListenerTest:67 - Closing browser window
